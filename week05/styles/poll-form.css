@@ -1,0 +1,67 @@
+:root{
+  --font-family: "Roboto", sans-serif;
+  --font-family1: "Playwrite AU QLD", cursive;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font-family);
+  padding: 15px;
+  width: auto;
+  background-color: beige;
+  border: 1px solid rgb(151, 140, 140);
+  box-shadow: 2px 2px 2px rgb(151, 140, 140);
+  /* display: flex;
+  flex-direction: column; */
+  justify-self: center;
+  justify-items: center;
+  border-radius: 6px;
+  
+}
+header{
+  text-align: center;
+}
+
+h1{
+  color: rgb(11, 11, 247);
+}
+
+form{
+ width: 550px;
+ margin: 0 auto;
+ padding: 6px;
+ border: red;
+ border-radius: 6px;
+ background-color: white;
+ display: grid;
+}
+legend{
+  font-family: var(--font-family1);
+  font-size: 20px;
+  color: rgb(82, 82, 221);
+}
+fieldset{
+display: grid;
+gap: 4px;
+padding: 16px;
+margin: 12px;
+border-radius: 6px;
+}
+
+input{
+  border-radius: 3px;
+  padding: 8px;
+  margin: 3px;
+  width: 260px;
+  
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
